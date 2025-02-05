@@ -13,7 +13,7 @@ pipeline {
                     }
                 }
                 echo 'Cloning the repository...'
-                bat 'git clone https://github.com/Pradeepa28041/Demo-script'
+                bat 'git clone https://github.com/Pradeepa28041/Demo-script.git'
             }
         }
 

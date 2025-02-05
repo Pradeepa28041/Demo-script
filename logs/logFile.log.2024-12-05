@@ -1,0 +1,566 @@
+[INFO] 2024-12-05 10:46:19,514 common.Hooks init - *********************************[@Digital_Journey_for_Xpress_Cash_Loan, @uid1352345228, @semiauto, @test001] Digital Journey for Xpress Cash Loan Execution started *******************************
+[INFO] 2024-12-05 10:46:23,152 workflows.SeleniumWorkFlow accessToPage - Method accessToPage completed.
+[INFO] 2024-12-05 10:46:30,257 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 10:46:35,140 workflows.SeleniumWorkFlow checkCheckbox - Method checkCheckbox completed.
+[INFO] 2024-12-05 10:46:38,378 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 10:46:42,291 workflows.SeleniumWorkFlow enterTextCustomerID - Method enterText completed.
+[INFO] 2024-12-05 10:46:45,640 workflows.SeleniumWorkFlow enterTextCaptcha - Method enterText completed.
+[INFO] 2024-12-05 10:46:48,913 workflows.SeleniumWorkFlow checkCheckbox - Method checkCheckbox completed.
+[INFO] 2024-12-05 10:46:52,174 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 10:47:00,506 workflows.SeleniumWorkFlow enterText - Method enterText completed.
+[INFO] 2024-12-05 10:47:03,701 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 10:47:10,056 workflows.SeleniumWorkFlow enterTextPanName - Method enterText completed.
+[INFO] 2024-12-05 10:47:20,006 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 10:47:26,088 workflows.SeleniumWorkFlow waitInSeconds - Method waitInSeconds completed.
+[INFO] 2024-12-05 10:47:35,796 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 10:47:42,339 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 10:47:48,691 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 10:47:55,241 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 10:48:22,204 workflows.SeleniumWorkFlow enterText - Method enterText completed.
+[INFO] 2024-12-05 10:48:28,712 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 10:48:31,915 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 10:48:35,156 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 10:48:38,419 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 10:48:41,655 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 10:48:44,912 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 10:48:49,596 workflows.SeleniumWorkFlow enterText - Method enterText completed.
+[INFO] 2024-12-05 10:48:54,160 workflows.SeleniumWorkFlow enterText - Method enterText completed.
+[INFO] 2024-12-05 10:48:57,389 workflows.SeleniumWorkFlow checkCheckbox - Method checkCheckbox completed.
+[INFO] 2024-12-05 10:49:00,600 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[ERROR] 2024-12-05 10:50:56,785 workflows.SeleniumWorkFlow enterText - Method enterText not completed.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@formcontrolname='empName']"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8e353b1859ac4de1a0cbdd8682b75f12, findElement {value=//input[@formcontrolname='empName'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59425/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e353b1859ac4de1a0cbdd8682b75f12
+[INFO] 2024-12-05 10:50:56,818 common.Hooks afterScenario - *********************************Scenario ended*******************************
+[INFO] 2024-12-05 10:50:57,404 common.Hooks closeBrowser - *********************************Execution ended*******************************
+[DEBUG] 2024-12-05 10:50:57,452 freemarker.cache debug - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:57,468 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,472 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,473 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+[DEBUG] 2024-12-05 10:50:57,473 freemarker.cache debug - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+[DEBUG] 2024-12-05 10:50:57,569 freemarker.cache debug - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:57,569 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,569 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,569 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+[DEBUG] 2024-12-05 10:50:57,569 freemarker.cache debug - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+[DEBUG] 2024-12-05 10:50:57,735 freemarker.cache debug - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:57,735 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,735 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,735 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+[DEBUG] 2024-12-05 10:50:57,735 freemarker.cache debug - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+[DEBUG] 2024-12-05 10:50:57,784 freemarker.cache debug - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:57,785 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,800 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,801 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+[DEBUG] 2024-12-05 10:50:57,801 freemarker.cache debug - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+[DEBUG] 2024-12-05 10:50:57,801 freemarker.cache debug - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:57,801 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,801 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,801 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+[DEBUG] 2024-12-05 10:50:57,801 freemarker.cache debug - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+[DEBUG] 2024-12-05 10:50:57,801 freemarker.cache debug - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:57,801 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,817 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,818 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+[DEBUG] 2024-12-05 10:50:57,818 freemarker.cache debug - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+[DEBUG] 2024-12-05 10:50:57,818 freemarker.cache debug - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2024-12-05 10:50:57,818 freemarker.cache debug - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:57,818 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,818 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,818 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+[DEBUG] 2024-12-05 10:50:57,818 freemarker.cache debug - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+[DEBUG] 2024-12-05 10:50:57,835 freemarker.cache debug - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:57,835 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,835 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,835 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+[DEBUG] 2024-12-05 10:50:57,835 freemarker.cache debug - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+[DEBUG] 2024-12-05 10:50:57,835 freemarker.cache debug - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:57,835 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,851 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,851 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+[DEBUG] 2024-12-05 10:50:57,851 freemarker.cache debug - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+[DEBUG] 2024-12-05 10:50:57,851 freemarker.cache debug - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:57,851 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,851 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,851 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+[DEBUG] 2024-12-05 10:50:57,851 freemarker.cache debug - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+[DEBUG] 2024-12-05 10:50:57,868 freemarker.cache debug - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:57,868 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,868 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,868 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+[DEBUG] 2024-12-05 10:50:57,868 freemarker.cache debug - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+[DEBUG] 2024-12-05 10:50:57,884 freemarker.cache debug - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:57,884 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,884 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,884 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+[DEBUG] 2024-12-05 10:50:57,884 freemarker.cache debug - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+[DEBUG] 2024-12-05 10:50:57,901 freemarker.cache debug - Couldn't find template in cache for "spark/partials/bdd-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:57,901 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,901 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,901 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/bdd-content.ftl"): Found
+[DEBUG] 2024-12-05 10:50:57,901 freemarker.cache debug - Loading template for "spark/partials/bdd-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/bdd-content.ftl"
+[DEBUG] 2024-12-05 10:50:57,984 freemarker.cache debug - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:57,984 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,984 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:57,984 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+[DEBUG] 2024-12-05 10:50:57,984 freemarker.cache debug - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+[DEBUG] 2024-12-05 10:50:58,002 freemarker.cache debug - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:58,002 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:58,002 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:58,002 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+[DEBUG] 2024-12-05 10:50:58,002 freemarker.cache debug - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+[DEBUG] 2024-12-05 10:50:58,022 freemarker.cache debug - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:58,025 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:58,026 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:58,029 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+[DEBUG] 2024-12-05 10:50:58,031 freemarker.cache debug - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+[DEBUG] 2024-12-05 10:50:58,034 freemarker.cache debug - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:58,036 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:58,039 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:58,040 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+[DEBUG] 2024-12-05 10:50:58,043 freemarker.cache debug - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+[DEBUG] 2024-12-05 10:50:58,047 freemarker.cache debug - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:58,049 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:58,051 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:58,053 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+[DEBUG] 2024-12-05 10:50:58,053 freemarker.cache debug - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+[DEBUG] 2024-12-05 10:50:58,056 freemarker.cache debug - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:58,058 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:58,058 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:58,058 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+[DEBUG] 2024-12-05 10:50:58,058 freemarker.cache debug - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+[DEBUG] 2024-12-05 10:50:58,134 freemarker.cache debug - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:58,135 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:58,135 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:58,135 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+[DEBUG] 2024-12-05 10:50:58,135 freemarker.cache debug - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+[DEBUG] 2024-12-05 10:50:58,135 freemarker.cache debug - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 10:50:58,139 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:58,139 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+[DEBUG] 2024-12-05 10:50:58,139 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+[DEBUG] 2024-12-05 10:50:58,139 freemarker.cache debug - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+[INFO] 2024-12-05 14:27:48,082 common.Hooks init - *********************************[@Digital_Journey_for_Xpress_Cash_Loan, @uid1352345228, @semiauto, @test001] Digital Journey for Xpress Cash Loan Execution started *******************************
+[INFO] 2024-12-05 14:27:52,014 workflows.SeleniumWorkFlow accessToPage - Method accessToPage completed.
+[INFO] 2024-12-05 14:27:59,132 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:28:04,008 workflows.SeleniumWorkFlow checkCheckbox - Method checkCheckbox completed.
+[INFO] 2024-12-05 14:28:07,239 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:28:11,146 workflows.SeleniumWorkFlow enterTextCustomerID - Method enterText completed.
+[INFO] 2024-12-05 14:28:14,480 workflows.SeleniumWorkFlow enterTextCaptcha - Method enterText completed.
+[INFO] 2024-12-05 14:28:17,763 workflows.SeleniumWorkFlow checkCheckbox - Method checkCheckbox completed.
+[INFO] 2024-12-05 14:28:21,039 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:28:26,397 workflows.SeleniumWorkFlow enterText - Method enterText completed.
+[INFO] 2024-12-05 14:28:29,671 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[ERROR] 2024-12-05 14:30:25,940 workflows.SeleniumWorkFlow enterTextPanName - Method enterText not completed.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='mat-input-2']"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd4ff9bfdeee81070155a817daab0122, findElement {value=//input[@id='mat-input-2'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52895/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd4ff9bfdeee81070155a817daab0122
+[INFO] 2024-12-05 14:30:25,988 common.Hooks afterScenario - *********************************Scenario ended*******************************
+[INFO] 2024-12-05 14:30:26,426 common.Hooks closeBrowser - *********************************Execution ended*******************************
+[DEBUG] 2024-12-05 14:30:26,506 freemarker.cache debug - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:26,522 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,522 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,522 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+[DEBUG] 2024-12-05 14:30:26,522 freemarker.cache debug - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+[DEBUG] 2024-12-05 14:30:26,605 freemarker.cache debug - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:26,617 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,617 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,617 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+[DEBUG] 2024-12-05 14:30:26,617 freemarker.cache debug - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+[DEBUG] 2024-12-05 14:30:26,812 freemarker.cache debug - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:26,814 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,816 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,816 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+[DEBUG] 2024-12-05 14:30:26,820 freemarker.cache debug - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+[DEBUG] 2024-12-05 14:30:26,824 freemarker.cache debug - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:26,840 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,840 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,843 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+[DEBUG] 2024-12-05 14:30:26,843 freemarker.cache debug - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+[DEBUG] 2024-12-05 14:30:26,843 freemarker.cache debug - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:26,843 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,843 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,843 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+[DEBUG] 2024-12-05 14:30:26,856 freemarker.cache debug - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+[DEBUG] 2024-12-05 14:30:26,856 freemarker.cache debug - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:26,856 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,856 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,856 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+[DEBUG] 2024-12-05 14:30:26,856 freemarker.cache debug - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+[DEBUG] 2024-12-05 14:30:26,872 freemarker.cache debug - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2024-12-05 14:30:26,872 freemarker.cache debug - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:26,872 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,872 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,872 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+[DEBUG] 2024-12-05 14:30:26,872 freemarker.cache debug - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+[DEBUG] 2024-12-05 14:30:26,904 freemarker.cache debug - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:26,904 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,907 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,907 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+[DEBUG] 2024-12-05 14:30:26,907 freemarker.cache debug - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+[DEBUG] 2024-12-05 14:30:26,919 freemarker.cache debug - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:26,919 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,919 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,919 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+[DEBUG] 2024-12-05 14:30:26,919 freemarker.cache debug - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+[DEBUG] 2024-12-05 14:30:26,919 freemarker.cache debug - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:26,936 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,936 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,936 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+[DEBUG] 2024-12-05 14:30:26,936 freemarker.cache debug - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+[DEBUG] 2024-12-05 14:30:26,951 freemarker.cache debug - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:26,951 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,951 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,951 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+[DEBUG] 2024-12-05 14:30:26,951 freemarker.cache debug - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+[DEBUG] 2024-12-05 14:30:26,968 freemarker.cache debug - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:26,968 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,968 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,968 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+[DEBUG] 2024-12-05 14:30:26,968 freemarker.cache debug - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+[DEBUG] 2024-12-05 14:30:26,986 freemarker.cache debug - Couldn't find template in cache for "spark/partials/bdd-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:26,986 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,986 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:26,986 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/bdd-content.ftl"): Found
+[DEBUG] 2024-12-05 14:30:26,986 freemarker.cache debug - Loading template for "spark/partials/bdd-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/bdd-content.ftl"
+[DEBUG] 2024-12-05 14:30:27,047 freemarker.cache debug - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:27,047 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:27,047 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:27,047 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+[DEBUG] 2024-12-05 14:30:27,063 freemarker.cache debug - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+[DEBUG] 2024-12-05 14:30:27,066 freemarker.cache debug - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:27,066 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:27,066 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:27,066 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+[DEBUG] 2024-12-05 14:30:27,066 freemarker.cache debug - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+[DEBUG] 2024-12-05 14:30:27,079 freemarker.cache debug - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:27,079 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:27,079 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:27,079 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+[DEBUG] 2024-12-05 14:30:27,079 freemarker.cache debug - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+[DEBUG] 2024-12-05 14:30:27,079 freemarker.cache debug - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:27,079 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:27,079 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:27,079 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+[DEBUG] 2024-12-05 14:30:27,079 freemarker.cache debug - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+[DEBUG] 2024-12-05 14:30:27,079 freemarker.cache debug - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:27,095 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:27,095 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:27,095 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+[DEBUG] 2024-12-05 14:30:27,095 freemarker.cache debug - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+[DEBUG] 2024-12-05 14:30:27,095 freemarker.cache debug - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:27,095 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:27,095 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:27,105 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+[DEBUG] 2024-12-05 14:30:27,105 freemarker.cache debug - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+[DEBUG] 2024-12-05 14:30:27,175 freemarker.cache debug - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:27,175 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:27,175 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:27,175 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+[DEBUG] 2024-12-05 14:30:27,175 freemarker.cache debug - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+[DEBUG] 2024-12-05 14:30:27,175 freemarker.cache debug - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:30:27,175 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:27,175 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:30:27,175 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+[DEBUG] 2024-12-05 14:30:27,175 freemarker.cache debug - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+[INFO] 2024-12-05 14:38:02,271 common.Hooks init - *********************************[@Digital_Journey_for_Xpress_Cash_Loan, @uid1352345228, @semiauto, @test001] Digital Journey for Xpress Cash Loan Execution started *******************************
+[INFO] 2024-12-05 14:38:08,038 workflows.SeleniumWorkFlow accessToPage - Method accessToPage completed.
+[INFO] 2024-12-05 14:38:15,082 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:38:20,199 workflows.SeleniumWorkFlow checkCheckbox - Method checkCheckbox completed.
+[INFO] 2024-12-05 14:38:23,455 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:38:27,319 workflows.SeleniumWorkFlow enterTextCustomerID - Method enterText completed.
+[INFO] 2024-12-05 14:38:30,635 workflows.SeleniumWorkFlow enterTextCaptcha - Method enterText completed.
+[INFO] 2024-12-05 14:38:33,935 workflows.SeleniumWorkFlow checkCheckbox - Method checkCheckbox completed.
+[INFO] 2024-12-05 14:38:37,214 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:38:48,781 workflows.SeleniumWorkFlow enterText - Method enterText completed.
+[INFO] 2024-12-05 14:38:52,031 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:38:58,764 workflows.SeleniumWorkFlow enterTextPanName - Method enterText completed.
+[INFO] 2024-12-05 14:39:08,702 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:39:14,812 workflows.SeleniumWorkFlow waitInSeconds - Method waitInSeconds completed.
+[INFO] 2024-12-05 14:39:22,422 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:39:29,035 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:39:35,385 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:39:42,022 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:40:09,562 workflows.SeleniumWorkFlow enterText - Method enterText completed.
+[INFO] 2024-12-05 14:40:16,163 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:40:19,374 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:40:22,631 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:40:25,904 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:40:29,201 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:40:32,477 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 14:40:37,155 workflows.SeleniumWorkFlow enterText - Method enterText completed.
+[INFO] 2024-12-05 14:40:41,765 workflows.SeleniumWorkFlow enterText - Method enterText completed.
+[INFO] 2024-12-05 14:40:44,986 workflows.SeleniumWorkFlow checkCheckbox - Method checkCheckbox completed.
+[INFO] 2024-12-05 14:40:48,246 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[ERROR] 2024-12-05 14:42:44,567 workflows.SeleniumWorkFlow enterText - Method enterText not completed.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@formcontrolname='empName']"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b6aae88ab52752b9ce14a09f174cf551, findElement {value=//input[@formcontrolname='empName'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53052}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53052/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b6aae88ab52752b9ce14a09f174cf551
+[INFO] 2024-12-05 14:42:44,609 common.Hooks afterScenario - *********************************Scenario ended*******************************
+[INFO] 2024-12-05 14:42:45,210 common.Hooks closeBrowser - *********************************Execution ended*******************************
+[DEBUG] 2024-12-05 14:42:45,311 freemarker.cache debug - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,311 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,326 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,328 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,328 freemarker.cache debug - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+[DEBUG] 2024-12-05 14:42:45,421 freemarker.cache debug - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,422 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,423 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,424 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,424 freemarker.cache debug - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+[DEBUG] 2024-12-05 14:42:45,575 freemarker.cache debug - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,576 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,577 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,579 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,579 freemarker.cache debug - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+[DEBUG] 2024-12-05 14:42:45,612 freemarker.cache debug - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,626 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,626 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,626 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,626 freemarker.cache debug - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+[DEBUG] 2024-12-05 14:42:45,626 freemarker.cache debug - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,626 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,626 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,640 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,640 freemarker.cache debug - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+[DEBUG] 2024-12-05 14:42:45,644 freemarker.cache debug - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,646 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,647 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,648 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,648 freemarker.cache debug - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+[DEBUG] 2024-12-05 14:42:45,653 freemarker.cache debug - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2024-12-05 14:42:45,653 freemarker.cache debug - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,654 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,655 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,657 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,657 freemarker.cache debug - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+[DEBUG] 2024-12-05 14:42:45,663 freemarker.cache debug - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,663 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,663 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,663 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,663 freemarker.cache debug - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+[DEBUG] 2024-12-05 14:42:45,663 freemarker.cache debug - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,673 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,676 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,676 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,677 freemarker.cache debug - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+[DEBUG] 2024-12-05 14:42:45,678 freemarker.cache debug - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,679 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,680 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,681 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,681 freemarker.cache debug - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+[DEBUG] 2024-12-05 14:42:45,690 freemarker.cache debug - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,691 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,692 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,692 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,692 freemarker.cache debug - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+[DEBUG] 2024-12-05 14:42:45,712 freemarker.cache debug - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,713 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,713 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,713 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,715 freemarker.cache debug - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+[DEBUG] 2024-12-05 14:42:45,753 freemarker.cache debug - Couldn't find template in cache for "spark/partials/bdd-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,754 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,756 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,757 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/bdd-content.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,757 freemarker.cache debug - Loading template for "spark/partials/bdd-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/bdd-content.ftl"
+[DEBUG] 2024-12-05 14:42:45,850 freemarker.cache debug - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,852 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,853 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,854 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,855 freemarker.cache debug - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+[DEBUG] 2024-12-05 14:42:45,859 freemarker.cache debug - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,859 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,859 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,859 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,859 freemarker.cache debug - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+[DEBUG] 2024-12-05 14:42:45,859 freemarker.cache debug - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,859 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,859 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,875 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,875 freemarker.cache debug - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+[DEBUG] 2024-12-05 14:42:45,878 freemarker.cache debug - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,879 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,880 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,882 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,883 freemarker.cache debug - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+[DEBUG] 2024-12-05 14:42:45,886 freemarker.cache debug - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,888 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,889 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,890 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,890 freemarker.cache debug - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+[DEBUG] 2024-12-05 14:42:45,891 freemarker.cache debug - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,891 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,891 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,891 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,891 freemarker.cache debug - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+[DEBUG] 2024-12-05 14:42:45,981 freemarker.cache debug - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,981 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,982 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,983 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,983 freemarker.cache debug - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+[DEBUG] 2024-12-05 14:42:45,985 freemarker.cache debug - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 14:42:45,985 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,986 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+[DEBUG] 2024-12-05 14:42:45,987 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+[DEBUG] 2024-12-05 14:42:45,987 freemarker.cache debug - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+[INFO] 2024-12-05 16:14:14,749 common.Hooks init - *********************************[@Digital_Journey_for_Xpress_Cash_Loan, @uid1352345228, @semiauto, @test001] Digital Journey for Xpress Cash Loan Execution started *******************************
+[INFO] 2024-12-05 16:14:18,335 workflows.SeleniumWorkFlow accessToPage - Method accessToPage completed.
+[INFO] 2024-12-05 16:14:25,423 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 16:14:30,250 workflows.SeleniumWorkFlow checkCheckbox - Method checkCheckbox completed.
+[INFO] 2024-12-05 16:14:33,475 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 16:14:37,356 workflows.SeleniumWorkFlow enterTextCustomerID - Method enterText completed.
+[INFO] 2024-12-05 16:14:40,644 workflows.SeleniumWorkFlow enterTextCaptcha - Method enterText completed.
+[INFO] 2024-12-05 16:14:43,907 workflows.SeleniumWorkFlow checkCheckbox - Method checkCheckbox completed.
+[INFO] 2024-12-05 16:14:47,329 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 16:14:56,679 workflows.SeleniumWorkFlow enterText - Method enterText completed.
+[INFO] 2024-12-05 16:14:59,951 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 16:15:06,590 workflows.SeleniumWorkFlow enterTextPanName - Method enterText completed.
+[INFO] 2024-12-05 16:15:16,633 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 16:15:22,705 workflows.SeleniumWorkFlow waitInSeconds - Method waitInSeconds completed.
+[INFO] 2024-12-05 16:15:32,695 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 16:15:39,256 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 16:15:46,690 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 16:15:53,275 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 16:16:20,453 workflows.SeleniumWorkFlow enterText - Method enterText completed.
+[INFO] 2024-12-05 16:16:26,986 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 16:16:30,245 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 16:16:33,488 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 16:16:36,763 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 16:16:39,978 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 16:16:43,194 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[INFO] 2024-12-05 16:16:47,868 workflows.SeleniumWorkFlow enterText - Method enterText completed.
+[INFO] 2024-12-05 16:16:52,519 workflows.SeleniumWorkFlow enterText - Method enterText completed.
+[INFO] 2024-12-05 16:16:55,828 workflows.SeleniumWorkFlow checkCheckbox - Method checkCheckbox completed.
+[INFO] 2024-12-05 16:16:59,061 workflows.SeleniumWorkFlow clickedElement - Method clickedElement completed.
+[ERROR] 2024-12-05 16:18:55,389 workflows.SeleniumWorkFlow enterText - Method enterText not completed.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@formcontrolname='empName']"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d5154a6b86d53dbe541e0f2e690cff7, findElement {value=//input[@formcontrolname='empName'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54356}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54356/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d5154a6b86d53dbe541e0f2e690cff7
+[INFO] 2024-12-05 16:18:55,420 common.Hooks afterScenario - *********************************Scenario ended*******************************
+[INFO] 2024-12-05 16:18:55,856 common.Hooks closeBrowser - *********************************Execution ended*******************************
+[DEBUG] 2024-12-05 16:18:55,935 freemarker.cache debug - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:55,935 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:55,940 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:55,942 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+[DEBUG] 2024-12-05 16:18:55,942 freemarker.cache debug - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+[DEBUG] 2024-12-05 16:18:56,030 freemarker.cache debug - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,033 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,033 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,035 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,035 freemarker.cache debug - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+[DEBUG] 2024-12-05 16:18:56,215 freemarker.cache debug - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,215 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,220 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,220 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,220 freemarker.cache debug - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+[DEBUG] 2024-12-05 16:18:56,246 freemarker.cache debug - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,246 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,246 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,252 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,252 freemarker.cache debug - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+[DEBUG] 2024-12-05 16:18:56,268 freemarker.cache debug - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,269 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,269 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,271 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,271 freemarker.cache debug - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+[DEBUG] 2024-12-05 16:18:56,271 freemarker.cache debug - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,276 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,276 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,276 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,276 freemarker.cache debug - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+[DEBUG] 2024-12-05 16:18:56,284 freemarker.cache debug - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2024-12-05 16:18:56,284 freemarker.cache debug - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,284 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,284 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,284 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,284 freemarker.cache debug - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+[DEBUG] 2024-12-05 16:18:56,300 freemarker.cache debug - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,302 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,302 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,302 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,302 freemarker.cache debug - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+[DEBUG] 2024-12-05 16:18:56,302 freemarker.cache debug - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,302 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,316 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,316 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,316 freemarker.cache debug - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+[DEBUG] 2024-12-05 16:18:56,321 freemarker.cache debug - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,323 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,323 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,325 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,325 freemarker.cache debug - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+[DEBUG] 2024-12-05 16:18:56,332 freemarker.cache debug - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,335 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,335 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,335 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,335 freemarker.cache debug - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+[DEBUG] 2024-12-05 16:18:56,348 freemarker.cache debug - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,348 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,348 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,348 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,348 freemarker.cache debug - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+[DEBUG] 2024-12-05 16:18:56,380 freemarker.cache debug - Couldn't find template in cache for "spark/partials/bdd-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,380 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,380 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,380 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/bdd-content.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,380 freemarker.cache debug - Loading template for "spark/partials/bdd-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/bdd-content.ftl"
+[DEBUG] 2024-12-05 16:18:56,491 freemarker.cache debug - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,491 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,491 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,491 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,507 freemarker.cache debug - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+[DEBUG] 2024-12-05 16:18:56,507 freemarker.cache debug - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,507 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,507 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,507 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,519 freemarker.cache debug - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+[DEBUG] 2024-12-05 16:18:56,523 freemarker.cache debug - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,528 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,528 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,528 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,528 freemarker.cache debug - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+[DEBUG] 2024-12-05 16:18:56,539 freemarker.cache debug - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,539 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,539 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,539 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,539 freemarker.cache debug - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+[DEBUG] 2024-12-05 16:18:56,551 freemarker.cache debug - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,551 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,551 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,554 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,554 freemarker.cache debug - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+[DEBUG] 2024-12-05 16:18:56,561 freemarker.cache debug - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,561 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,561 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,561 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,570 freemarker.cache debug - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+[DEBUG] 2024-12-05 16:18:56,664 freemarker.cache debug - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,670 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,670 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,670 freemarker.cache debug - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,670 freemarker.cache debug - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+[DEBUG] 2024-12-05 16:18:56,670 freemarker.cache debug - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-12-05 16:18:56,670 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,680 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+[DEBUG] 2024-12-05 16:18:56,680 freemarker.cache debug - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+[DEBUG] 2024-12-05 16:18:56,680 freemarker.cache debug - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Dell/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"

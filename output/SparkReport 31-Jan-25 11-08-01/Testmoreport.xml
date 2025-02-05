@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="193.272">
+    <testcase classname="KBL1" name="Digital Journey for Xpress Cash Loan" time="43.116">
+        <system-out><![CDATA[Given I have access to application..........................................passed
+Then verify text Karnataka Bank logo in home page...........................passed
+When I selected Existing bank Customer login in home page...................passed
+And I checked requirements in home page.....................................passed
+And I selected Proceed to create application in home page...................passed
+And I entered Customer ID in existing bank customer as '766062882'..........passed
+And I entered Captchaa1 in existing bank customer as '123456'...............passed
+And I checked Terms and conditions in existing bank customer................passed
+And I selected Generate OTP1 in existing bank customer......................passed
+And I entered ENTER OTP1 in existing bank customer as '123456'..............passed
+And I selected Verify OTP1 in existing bank customer........................passed
+Then 'NA' is displayed with 'NA'............................................passed
+]]></system-out>
+    <properties><property name="tested-item-id" status="@Digital_Journey_for_Xpress_Cash_Loan, @uid1352345228, @semiauto, @test001" value="@Digital_Journey_for_Xpress_Cash_Loan, @uid1352345228, @semiauto, @test001"/></properties></testcase>
+    <testcase classname="KBL1" name="Digital Journey for Xpress Cash Loan application" time="149.765">
+        <failure message="" type="java.lang.AssertionError"><![CDATA[Given I have access to application..........................................passed
+Then verify text Karnataka Bank logo in home page...........................passed
+When I selected Existing bank Customer login in home page...................passed
+And I checked requirements in home page.....................................passed
+And I selected Proceed to create application in home page...................passed
+And I entered Customer ID in existing bank customer as '766062882'..........passed
+And I entered Captchaa1 in existing bank customer as '123456'...............passed
+And I checked Terms and conditions in existing bank customer................passed
+And I selected Generate OTP1 in existing bank customer......................passed
+And I entered ENTER OTP1 in existing bank customer as '123456'..............passed
+And I selected Verify OTP2 in existing bank customer........................failed
+Then 'NA' is displayed with 'NA'............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at common.Assertion.IsTrue(Assertion.java:12)
+	at stepdefinitions.ExistingBankCustomerStepDefinition.WhenISelectedVerifyOtp2InExistingBankCustomer(ExistingBankCustomerStepDefinition.java:75)
+	at ✽.I selected Verify OTP2 in existing bank customer(file:///C:/Users/Admin/Desktop/KBL%20POC/Performance%20script/AlgoAFScript_202412030532920000%20(5)/AlgoAFScript_202412030532920000_testmo/src/test/java/features/KBL.feature:51)
+]]></failure>
+    <properties><property name="tested-item-id" status="@Digital_Journey_for_Xpress_Cash_Loan_failled, @uid1352345229, @semiauto, @test002" value="@Digital_Journey_for_Xpress_Cash_Loan_failled, @uid1352345229, @semiauto, @test002"/></properties></testcase>
+</testsuite>

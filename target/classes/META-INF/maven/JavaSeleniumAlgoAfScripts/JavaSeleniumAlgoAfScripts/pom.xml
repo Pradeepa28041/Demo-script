@@ -1,0 +1,312 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>JavaSeleniumAlgoAfScripts</groupId>
+	<artifactId>JavaSeleniumAlgoAfScripts</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<encoding>UTF-8</encoding>
+		<aspectj.version>1.8.4</aspectj.version>
+		<allure.version>1.5.4</allure.version>
+	</properties>
+	<dependencies>
+	<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.6.4</version>
+    </dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.19.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.36</version>
+		</dependency>
+		<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.3.4</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-csv -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-csv</artifactId>
+    <version>1.11.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-picocontainer</artifactId>
+    <version>7.3.4</version>
+    
+</dependency>
+
+<dependency>
+		<groupId>io.percy</groupId>
+		<artifactId>percy-java-selenium</artifactId>
+		<version>1.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-cucumber-jvm</artifactId>
+			<version>2.14.0</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.3.4</version>
+    
+</dependency>
+		
+		
+
+
+  
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-jvm</artifactId>
+    <version>7.3.4</version>
+    <type>pom</type>
+</dependency>
+		<dependency>
+   <groupId>tech.grasshopper</groupId>
+   <artifactId>extentreports-cucumber7-adapter</artifactId>
+   <version>1.7.0</version>
+    <exclusions>
+   	<exclusion>
+   		<groupId>org.projectlombok</groupId>
+   		<artifactId>lombok</artifactId>
+   	</exclusion>
+   </exclusions>
+</dependency>
+
+<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+			<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20211205</version>
+		</dependency>
+		
+		
+		<dependency>
+			<groupId>com.esotericsoftware.yamlbeans</groupId>
+			<artifactId>yamlbeans</artifactId>
+			<version>1.13</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-yaml</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+		
+		
+		<dependency>
+	<groupId>org.unix4j</groupId>
+	<artifactId>unix4j-command</artifactId>
+	<version>0.6</version>
+</dependency>
+		<!-- https://mvnrepository.com/artifact/net.lingala.zip4j/zip4j -->
+<dependency>
+    <groupId>net.lingala.zip4j</groupId>
+    <artifactId>zip4j</artifactId>
+    <version>2.10.0</version>
+</dependency>
+
+			<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+	<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>9.2.1.jre8</version>
+			
+		</dependency>
+		
+		<!-- <dependency>
+			<groupId>com.vimalselvam</groupId>
+			<artifactId>cucumber-extentsreport</artifactId>
+			<version>3.0.2</version>
+		</dependency> -->
+		
+		<dependency>
+			<groupId>com.github.mkolisnyk</groupId>
+			<artifactId>cucumber-runner</artifactId>
+			<version>1.3.5</version>
+			
+				<exclusions>
+        <exclusion>
+            <groupId>xerces</groupId>
+            <artifactId>xerces</artifactId>
+        </exclusion>
+        <exclusion>
+            <groupId>xerces</groupId>
+            <artifactId>xercesImpl</artifactId>
+        </exclusion>
+        <exclusion>
+            <groupId>xml-apis</groupId>
+            <artifactId>xml-apis</artifactId>
+        </exclusion>
+        <exclusion>
+            <groupId>xml-apis</groupId>
+            <artifactId>xmlParserAPIs</artifactId>
+        </exclusion>
+    </exclusions> 
+		</dependency>
+		
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>5.1.1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.28</version> 
+		</dependency>
+		
+				<dependency>
+		<groupId>org.apache.poi</groupId>
+		<artifactId>poi</artifactId>
+		<version>3.17</version>
+		</dependency>
+		<dependency>
+		<groupId>org.apache.poi</groupId>
+		<artifactId>poi-ooxml</artifactId>
+		<version>3.17</version>
+		</dependency>
+		<dependency>
+			<groupId>com.jcraft</groupId>
+			<artifactId>jsch</artifactId>
+			<version>0.1.55</version>
+		</dependency>
+		
+		<dependency>
+    <groupId>org.mongodb</groupId>
+    <artifactId>mongodb-driver</artifactId>
+    <version>3.12.11</version>
+</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.11.0</version>
+</dependency>
+
+
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-core</artifactId>
+    <version>7.3.4</version>
+    <scope>test</scope>
+</dependency>
+		
+		<dependency>
+		<groupId>org.apache.pdfbox</groupId>
+		<artifactId>pdfbox</artifactId>
+		<version>2.0.21</version>
+		</dependency>
+
+			<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.5</version>
+		</dependency>
+		
+		<dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.9.10</version>
+            <scope>test</scope>
+        </dependency>
+		<dependency>
+		    <groupId>net.rcarz</groupId>
+		    <artifactId>jira-client</artifactId>
+		    <version>0.5</version>  
+		    <scope>compile</scope> 
+ 		</dependency>
+		
+		
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>3.0.0-M4</version>
+			<type>maven-plugin</type>
+		</dependency>
+		<dependency>
+			<groupId>ru.yandex.qatools.allure</groupId>
+			<artifactId>allure-cucumber-jvm-adaptor</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+        <dependency>
+			<groupId>com.github.stephenc.monte</groupId>
+			<artifactId>monte-screen-recorder</artifactId>
+			<version>0.7.7.0</version>
+	    </dependency>
+        <dependency>
+        	<groupId>JavaAppiumAlgoAfScripts</groupId>
+        	<artifactId>JavaAppiumAlgoAfScripts</artifactId>
+        	<version>0.0.1-SNAPSHOT</version>
+        </dependency>
+	</dependencies>
+	<build>
+	<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.19.1</version>
+				<configuration>
+					<testFailureIgnore>false</testFailureIgnore>
+				</configuration>
+				<dependencies>
+				    <dependency>
+        				<groupId>org.apache.maven.surefire</groupId>
+       					<artifactId>surefire-junit47</artifactId>
+        				<version>2.19.1</version>
+      				</dependency>
+					<dependency>
+						<groupId>org.aspectj</groupId>
+						<artifactId>aspectjweaver</artifactId>
+						<version>${aspectj.version}</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+		</plugins>
+	</build>
+	<reporting>
+		<excludeDefaults>true</excludeDefaults>
+		<plugins>
+			<plugin>
+				<groupId>ru.yandex.qatools.allure</groupId>
+				<artifactId>allure-maven-plugin</artifactId>
+				<version>2.5</version>
+			</plugin>
+		</plugins>
+	</reporting>
+</project>

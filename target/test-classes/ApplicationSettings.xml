@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettings>
+    <URL>https://digiut.ktkbank.com/cicd/dcoeloan/home</URL>
+    <APIURL/>
+    <BrowserType>Chrome</BrowserType>
+    <EnableDebugLog>False</EnableDebugLog>
+    <WebdriverPath>Na</WebdriverPath>
+    <PrintTextInConsole>False</PrintTextInConsole>
+    <ProjectName>KBL</ProjectName>
+    <EnableScrenshotForSucess>True</EnableScrenshotForSucess>
+    <EnableScrenshotForFailure>True</EnableScrenshotForFailure>
+    <EnableEachStepScreenshot>False</EnableEachStepScreenshot>
+    <EnableVideoCaptureForSuccess>False</EnableVideoCaptureForSuccess>
+    <EnableVideoCaptureForFailure>False</EnableVideoCaptureForFailure>
+    <EnableCompareImage>False</EnableCompareImage>
+    <MaximumTimeInSecondsToWaitForControl>110</MaximumTimeInSecondsToWaitForControl>
+    <MaximumTimeInMilliSecondsToWaitForPage>15000</MaximumTimeInMilliSecondsToWaitForPage>
+    <TimeIntervalInMilliSecondsToWaitForPage>500</TimeIntervalInMilliSecondsToWaitForPage>
+    <DownloadInCurrentDirectory>False</DownloadInCurrentDirectory>
+    <HighLightWebElement>false</HighLightWebElement>
+    <EnableSoftassertion>False</EnableSoftassertion>
+    <EnableFullScreenshot>False</EnableFullScreenshot>
+    <SubmitResultToTFS>false</SubmitResultToTFS>
+    <ToEmail/>
+    <FromEmail/>
+    <FromPassword/>
+    <LambdaTestBuild/>
+    <LambdaTestURL/>
+    <NetworkLog>False</NetworkLog>
+    <Token>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjI2OTYsInByb2plY3RJZCI6MjAxMzgsInVzZXJOYW1lIjoiU3VjaGludGEgU2F0aXNoIiwiYmFzZVVybCI6Imh0dHBzOi8vYWxnb3NoYWNrLm5ldCIsImlhdCI6MTczMzIwMzk3Mn0.Gg-h7CSov81oiuvZHG30vfK_-T91z1ZnfevMGsHXy8I</Token>
+    <UserName>Suchinta Satish</UserName>
+    <AutoHealing>False</AutoHealing>
+    <EnablePercy>yes</EnablePercy>
+    <JiraIntegration>False</JiraIntegration>
+    <JiraIntegrationParameters>JiraUrl,Username,Password,ProjectKey,IssueType,ReporterName</JiraIntegrationParameters>
+    <AzureTFSIntegration>False</AzureTFSIntegration>
+    <AzureIntegrationTFSCredentials>OrganisationName,ProjectName,PersonalAccessToken</AzureIntegrationTFSCredentials>
+    <ProfilePath/>
+    <Cookies>False</Cookies>
+    <HubURL>http://192.168.29.57:4444/wd/hub</HubURL>
+    <Type>Selenium</Type>
+    <DownloadPath/>
+</ApplicationSettings>

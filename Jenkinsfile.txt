@@ -1,0 +1,59 @@
+pipeline {
+    agent any
+    stages {
+        stage('Clean Workspace and Clone Repository') {
+            steps {
+                echo 'Cleaning up the workspace and cloning the repository...'
+                script {
+                    if (fileExists('java_project')) {
+                        echo 'Deleting the existing java_project directory...'
+                        bat 'rmdir /s /q java_project'
+                    } else {
+                        echo 'No existing directory to delete.'
+                    }
+                }
+                echo 'Cloning the repository...'
+                bat 'git clone https://github.com/Cherry9676/java_project.git'
+            }
+        }
+
+        stage('Clean and Run Tests') {
+            steps {
+                echo 'Cleaning and running tests using Maven...'
+                bat 'mvn clean test -f java_project/pom.xml'
+            }
+        }
+
+        stage('Send Report') {
+            steps {
+                echo 'Sending test report via email...'
+                script {
+                    def reportFile = 'java_project/ExtentReports/Report.html'
+                    if (fileExists(reportFile)) {
+                        emailext(
+                            subject: "Build - Test Report",
+                            body: """
+                                <p>Build Details:</p>
+                                <ul>
+                                    <li>Project Name: MyProject</li>
+                                    <li>Build Type: Sanity Suite</li>
+                                </ul>
+                                <p>Find the attached test report below.</p>
+                            """,
+                            to: 'sankarcherry1432@gmail.com',
+                            mimeType: 'text/html',
+                            attachmentsPattern: '**/ExtentReports/Report.html'
+                        )
+                    } else {
+                        echo "Test report not found at ${reportFile}."
+                    }
+                }
+            }
+        }
+    }
+    post {
+        always {
+            echo 'Pipeline execution completed. Cleaning up workspace...'
+        }
+    }
+}

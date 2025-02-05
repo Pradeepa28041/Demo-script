@@ -5,14 +5,16 @@ pipeline {
             steps {
                 echo 'Cleaning up the workspace and cloning the repository...'
                 script {
-                    if (fileExists('java_project')) {
-                        echo 'Deleting the existing java_project directory...'
-                        bat 'rmdir /s /q java_project'
+                    // Check if the repository already exists and delete it if necessary
+                    if (fileExists('Demo-script')) {
+                        echo 'Deleting the existing Demo-script directory...'
+                        bat 'rmdir /s /q Demo-script'
                     } else {
                         echo 'No existing directory to delete.'
                     }
                 }
                 echo 'Cloning the repository...'
+                // Clone the repository
                 bat 'git clone https://github.com/Pradeepa28041/Demo-script.git'
             }
         }
@@ -20,7 +22,10 @@ pipeline {
         stage('Clean and Run Tests') {
             steps {
                 echo 'Cleaning and running tests using Maven...'
-                bat 'mvn clean test -f pom.xml'
+                // Navigate into the cloned directory and run tests using Maven
+                dir('Demo-script') {
+                    bat 'mvn clean test'
+                }
             }
         }
 
@@ -28,7 +33,8 @@ pipeline {
             steps {
                 echo 'Sending test report via email...'
                 script {
-                    def reportFile = 'java_project/ExtentReports/Report.html'
+                    // Check if the report exists and send it
+                    def reportFile = 'Demo-script/ExtentReports/Report.html'
                     if (fileExists(reportFile)) {
                         emailext(
                             subject: "Build - Test Report",
@@ -42,7 +48,7 @@ pipeline {
                             """,
                             to: 'pradeepbeelagi28041@gmail.com',
                             mimeType: 'text/html',
-                            attachmentsPattern: '**/ExtentReports/Report.html'
+                            attachmentsPattern: 'Demo-script/ExtentReports/Report.html' // Adjusted path
                         )
                     } else {
                         echo "Test report not found at ${reportFile}."
@@ -54,6 +60,7 @@ pipeline {
     post {
         always {
             echo 'Pipeline execution completed. Cleaning up workspace...'
+            // Optional: Cleanup actions (e.g., remove workspace)
         }
     }
 }

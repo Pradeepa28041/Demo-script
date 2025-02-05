@@ -20,7 +20,7 @@ pipeline {
         stage('Clean and Run Tests') {
             steps {
                 echo 'Cleaning and running tests using Maven...'
-                bat 'mvn clean test -f java_project/pom.xml'
+                bat 'mvn clean test -f pom.xml'
             }
         }
 

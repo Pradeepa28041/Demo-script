@@ -2,7 +2,7 @@
 <ApplicationSettings>
     <URL>https://digiut.ktkbank.com/cicd/dcoeloan/home</URL>
     <APIURL/>
-    <BrowserType>Chrome</BrowserType>
+    <BrowserType>HeadlessChrome</BrowserType>
     <EnableDebugLog>False</EnableDebugLog>
     <WebdriverPath>Na</WebdriverPath>
     <PrintTextInConsole>False</PrintTextInConsole>

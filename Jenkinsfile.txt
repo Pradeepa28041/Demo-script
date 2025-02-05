@@ -13,7 +13,7 @@ pipeline {
                     }
                 }
                 echo 'Cloning the repository...'
-                bat 'git clone https://github.com/Cherry9676/java_project.git'
+                bat 'git clone https://github.com/Pradeepa28041/Demo-script'
             }
         }
 
@@ -40,7 +40,7 @@ pipeline {
                                 </ul>
                                 <p>Find the attached test report below.</p>
                             """,
-                            to: 'sankarcherry1432@gmail.com',
+                            to: 'pradeepbeelagi28041@gmail.com',
                             mimeType: 'text/html',
                             attachmentsPattern: '**/ExtentReports/Report.html'
                         )
